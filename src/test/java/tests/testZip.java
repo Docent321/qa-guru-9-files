@@ -9,10 +9,9 @@ import java.io.*;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
-import java.util.zip.ZipInputStream;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.condition.Not.not;
+
 
 public class testZip {
 
@@ -47,7 +46,7 @@ public class testZip {
         try (InputStream inputStream = zipFile.getInputStream(zipEntry);
             CSVReader csv = new CSVReader(new InputStreamReader(inputStream))) {
             List<String[]> content = csv.readAll();
-            assertThat(content.get(1)).contains("1985");
+            assertThat(content.get(1)).contains("Tarasov");
         }
     }
 }
