@@ -1,0 +1,18 @@
+{
+  "name": "Alex",
+  "surname": "Tarasov",
+  "age": 36,
+  "favorite_music": [
+    "Metallica",
+    "Nirvana"
+  ],
+  "address": {
+    "street": "Bor",
+    "house": 4
+  },
+  "children": [
+    "Маша",
+    "Игорь",
+    "Таня"
+  ]
+}

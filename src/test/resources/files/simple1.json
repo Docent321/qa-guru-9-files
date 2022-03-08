@@ -1,0 +1,15 @@
+{
+  "name": "Алексей",
+  "age": 36,
+  "mother": {
+    "name": "Мария",
+    "age": 58
+  },
+  "children": [
+    "Маша",
+    "Игорь",
+    "Таня"
+  ],
+  "married": true,
+  "dog": null
+}
