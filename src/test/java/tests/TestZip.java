@@ -13,7 +13,7 @@ import java.util.zip.ZipFile;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class testZip {
+public class TestZip {
 
 
     @Test
